@@ -9,4 +9,5 @@
     <%= submit_tag "Submit Student" %>
 <% end %>
 
+<%= session[:form_params] if session[:form_params] %>
 <h1><%= @student.to_s %></h1>
